@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure AI Foundry — Model Documentation</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+            background: #f4f6f9;
+            color: #333;
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* ── Sidebar ── */
+        #sidebar {
+            width: 260px;
+            min-width: 260px;
+            background: #1a1a2e;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            overflow-y: auto;
+            z-index: 100;
+        }
+        .sidebar-title {
+            background: #0078d4;
+            color: white;
+            padding: 20px 16px;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 1.6;
+        }
+        .sidebar-subtitle {
+            font-weight: 400;
+            font-size: 11px;
+            opacity: 0.85;
+        }
+        .sidebar-section-label {
+            color: #666;
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            padding: 16px 16px 6px;
+        }
+        .sidebar-link {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            color: #b0b8c4;
+            text-decoration: none;
+            font-size: 13px;
+            border-left: 3px solid transparent;
+        }
+        .sidebar-link:hover {
+            background: rgba(255,255,255,0.07);
+            color: white;
+            border-left-color: #0078d4;
+        }
+
+        /* ── Main Content ── */
+        #main {
+            margin-left: 260px;
+            flex: 1;
+            min-width: 0;
+        }
+        .page-header {
+            background: #0078d4;
+            color: white;
+            padding: 28px 32px;
+        }
+        .page-header h1 { font-size: 22px; font-weight: 600; }
+        .page-header p  { font-size: 13px; opacity: 0.85; margin-top: 6px; }
+        .page-header a  { color: #a8d4f5; }
+        .content { padding: 28px 32px; }
+
+        /* ── Summary Stat Cards ── */
+        .stats-row {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 32px;
+            flex-wrap: wrap;
+        }
+        .stat-card {
+            background: white;
+            border-radius: 8px;
+            padding: 18px 24px;
+            min-width: 130px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            border-top: 4px solid #0078d4;
+        }
+        .stat-number { font-size: 34px; font-weight: 700; color: #0078d4; }
+        .stat-label  { font-size: 12px; color: #888; margin-top: 4px; }
+        .stat-card.green  { border-top-color: #22c55e; }
+        .stat-card.green  .stat-number { color: #22c55e; }
+        .stat-card.amber  { border-top-color: #f59e0b; }
+        .stat-card.amber  .stat-number { color: #f59e0b; }
+        .stat-card.red    { border-top-color: #ef4444; }
+        .stat-card.red    .stat-number { color: #ef4444; }
+        .stat-card.blue   { border-top-color: #3b82f6; }
+        .stat-card.blue   .stat-number { color: #3b82f6; }
+
+        /* ── Section Headings ── */
+        .section-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a1a2e;
+            margin-bottom: 14px;
+        }
+
+        /* ── Comparison Table ── */
+        .table-wrap {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            overflow-x: auto;
+            margin-bottom: 36px;
+        }
+        table { border-collapse: collapse; width: 100%; font-size: 13px; }
+        thead th {
+            background: #0078d4;
+            color: white;
+            padding: 10px 14px;
+            text-align: left;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+        tbody td {
+            padding: 10px 14px;
+            border-bottom: 1px solid #f0f0f0;
+            vertical-align: middle;
+        }
+        tbody tr:last-child td { border-bottom: none; }
+        tbody tr:hover { background: #f8f9ff; }
+
+        /* ── Model Detail Sections ── */
+        .model-section {
+            background: white;
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            border-left: 5px solid #0078d4;
+            scroll-margin-top: 20px;
+        }
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 18px;
+        }
+        .model-title { font-size: 18px; font-weight: 600; color: #1a1a2e; }
+        .badge {
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            color: white;
+        }
+        .info-grid  { margin-bottom: 20px; }
+        .info-row   { display: flex; padding: 7px 0; border-bottom: 1px solid #f5f5f5; font-size: 13px; }
+        .info-row:last-child { border-bottom: none; }
+        .info-label { width: 190px; min-width: 190px; color: #888; font-weight: 500; }
+        .info-value { color: #333; }
+        .sub-heading {
+            font-size: 13px;
+            font-weight: 600;
+            color: #555;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .dep-table { width: 100%; font-size: 12px; border-collapse: collapse; }
+        .dep-table th {
+            background: #f4f6f9;
+            color: #555;
+            padding: 7px 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        .dep-table td { padding: 7px 12px; border-bottom: 1px solid #f0f0f0; }
+        .dep-table tr:last-child td { border-bottom: none; }
+
+        /* ── Footer ── */
+        .footer {
+            color: #aaa;
+            font-size: 11px;
+            margin-top: 40px;
+            padding-top: 16px;
+            border-top: 1px solid #e5e5e5;
+        }
+        .footer a { color: #0078d4; }
+    </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════ SIDEBAR -->
+<nav id="sidebar">
+    <div class="sidebar-title">
+        Azure AI Foundry
+        <div class="sidebar-subtitle">Model Documentation</div>
+        <div class="sidebar-subtitle">rg-mcp-foundry-project26</div>
+    </div>
+
+    <div class="sidebar-section-label">Navigate</div>
+    <a href="#overview"    class="sidebar-link"><span>📊</span><span>Overview</span></a>
+    <a href="#comparison"  class="sidebar-link"><span>⚖️</span><span>Comparison Table</span></a>
+
+    <div class="sidebar-section-label">Deployed Models</div>
+    
+            <a href="#gpt-5-chat" class="sidebar-link">
+                <span>🔴</span>
+                <span>gpt-5-chat</span>
+            </a>
+            <a href="#gpt-5-3-chat" class="sidebar-link">
+                <span>🟡</span>
+                <span>gpt-5.3-chat</span>
+            </a>
+            <a href="#gpt-4o" class="sidebar-link">
+                <span>🔵</span>
+                <span>gpt-4o</span>
+            </a>
+            <a href="#gpt-4-1" class="sidebar-link">
+                <span>🔵</span>
+                <span>gpt-4.1</span>
+            </a>
+</nav>
+
+<!-- ═══════════════════════════════════════════════════ MAIN CONTENT -->
+<div id="main">
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <h1>Azure AI Foundry — Model Documentation</h1>
+        <p>
+            Resource Group: <strong>rg-mcp-foundry-project26</strong> &nbsp;|&nbsp;
+            Generated: <strong>2026-04-19 12:15</strong> &nbsp;|&nbsp;
+            <a href="https://portal.azure.com/#resource/subscriptions/1172b053-825e-438c-8968-4fbca25c3080/resourceGroups/rg-mcp-foundry-project26/overview" target="_blank">Open in Azure Portal ↗</a>
+        </p>
+    </div>
+
+    <div class="content">
+
+        <!-- ── Summary Stats ── -->
+        <div id="overview">
+            <div class="stats-row">
+                <div class="stat-card">
+                    <div class="stat-number">4</div>
+                    <div class="stat-label">Models Deployed</div>
+                </div>
+                <div class="stat-card green">
+                    <div class="stat-number">0</div>
+                    <div class="stat-label">Active</div>
+                </div>
+                <div class="stat-card blue">
+                    <div class="stat-number">2</div>
+                    <div class="stat-label">Retiring (&gt;60 days)</div>
+                </div>
+                <div class="stat-card amber">
+                    <div class="stat-number">1</div>
+                    <div class="stat-label">Retiring (31–60 days)</div>
+                </div>
+                <div class="stat-card red">
+                    <div class="stat-number">1</div>
+                    <div class="stat-label">Retiring (&le;30 days)</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ── Comparison Table ── -->
+        <div id="comparison">
+            <div class="section-title">Model Comparison</div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Model</th>
+                            <th>Deployment(s)</th>
+                            <th>SKU</th>
+                            <th>Region</th>
+                            <th>Context Window</th>
+                            <th>Retirement Date</th>
+                            <th>Replacement</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                <tr>
+                    <td><a href="#gpt-5-chat" style="color:#0078d4;text-decoration:none;font-weight:600;">gpt-5-chat</a></td>
+                    <td>gpt-5-chat</td>
+                    <td>GlobalStandard</td>
+                    <td>northcentralus</td>
+                    <td>N/A</td>
+                    <td>2026-04-15</td>
+                    <td>gpt-5.3-chat</td>
+                    <td><span style="background:#ef4444;color:white;padding:3px 10px;border-radius:12px;font-size:11px;font-weight:600;">Retiring in -4d</span></td>
+                </tr>
+                <tr>
+                    <td><a href="#gpt-5-3-chat" style="color:#0078d4;text-decoration:none;font-weight:600;">gpt-5.3-chat</a></td>
+                    <td>gpt-5-3-chat-20260418</td>
+                    <td>GlobalStandard</td>
+                    <td>northcentralus</td>
+                    <td>N/A</td>
+                    <td>2026-06-01</td>
+                    <td>N/A</td>
+                    <td><span style="background:#f59e0b;color:white;padding:3px 10px;border-radius:12px;font-size:11px;font-weight:600;">Retiring in 43d</span></td>
+                </tr>
+                <tr>
+                    <td><a href="#gpt-4o" style="color:#0078d4;text-decoration:none;font-weight:600;">gpt-4o</a></td>
+                    <td>gpt-4o</td>
+                    <td>GlobalStandard</td>
+                    <td>northcentralus</td>
+                    <td>N/A</td>
+                    <td>2026-10-01</td>
+                    <td>gpt-5.1</td>
+                    <td><span style="background:#3b82f6;color:white;padding:3px 10px;border-radius:12px;font-size:11px;font-weight:600;">Retiring in 165d</span></td>
+                </tr>
+                <tr>
+                    <td><a href="#gpt-4-1" style="color:#0078d4;text-decoration:none;font-weight:600;">gpt-4.1</a></td>
+                    <td>gpt-4.1</td>
+                    <td>GlobalStandard</td>
+                    <td>northcentralus</td>
+                    <td>N/A</td>
+                    <td>2026-10-14</td>
+                    <td>gpt-5</td>
+                    <td><span style="background:#3b82f6;color:white;padding:3px 10px;border-radius:12px;font-size:11px;font-weight:600;">Retiring in 178d</span></td>
+                </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- ── Model Detail Sections ── -->
+        <div class="section-title">Model Details</div>
+        
+        <section id="gpt-5-chat" class="model-section" style="border-left-color:#ef4444;">
+            <div class="section-header">
+                <h2 class="model-title">gpt-5-chat</h2>
+                <span class="badge" style="background:#ef4444;">Retiring in -4d</span>
+            </div>
+
+            <div class="info-grid">
+                <div class="info-row">
+                    <span class="info-label">Context Window</span>
+                    <span class="info-value">N/A tokens</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Max Output Tokens</span>
+                    <span class="info-value">N/A</span>
+                </div>
+                
+            <div class="info-row">
+                <span class="info-label">Retirement Date</span>
+                <span class="info-value" style="color:#ef4444;font-weight:600;">
+                    2026-04-15 &nbsp;(-4 days left)
+                </span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">Replacement Model</span>
+                <span class="info-value">gpt-5.3-chat</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">Replacement Status</span>
+                <span class="info-value"><span style="color:#22c55e;font-weight:600;">&#10003; Deployed (northcentralus)</span></span>
+            </div>
+            </div>
+
+            <h3 class="sub-heading">Deployments in this Resource Group</h3>
+            <table class="dep-table">
+                <thead>
+                    <tr>
+                        <th>Deployment Name</th>
+                        <th>Version</th>
+                        <th>SKU</th>
+                        <th>Region</th>
+                        <th>Resource</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>gpt-5-chat</td>
+                        <td>2025-10-03</td>
+                        <td>GlobalStandard</td>
+                        <td>northcentralus</td>
+                        <td>mcp-foundry-project26-resource</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="gpt-5-3-chat" class="model-section" style="border-left-color:#f59e0b;">
+            <div class="section-header">
+                <h2 class="model-title">gpt-5.3-chat</h2>
+                <span class="badge" style="background:#f59e0b;">Retiring in 43d</span>
+            </div>
+
+            <div class="info-grid">
+                <div class="info-row">
+                    <span class="info-label">Context Window</span>
+                    <span class="info-value">N/A tokens</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Max Output Tokens</span>
+                    <span class="info-value">N/A</span>
+                </div>
+                
+            <div class="info-row">
+                <span class="info-label">Retirement Date</span>
+                <span class="info-value" style="color:#f59e0b;font-weight:600;">
+                    2026-06-01 &nbsp;(43 days left)
+                </span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">Replacement Model</span>
+                <span class="info-value">N/A</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">Replacement Status</span>
+                <span class="info-value"><span style="color:#f59e0b;font-weight:600;">&#9888; Not Deployed</span></span>
+            </div>
+            </div>
+
+            <h3 class="sub-heading">Deployments in this Resource Group</h3>
+            <table class="dep-table">
+                <thead>
+                    <tr>
+                        <th>Deployment Name</th>
+                        <th>Version</th>
+                        <th>SKU</th>
+                        <th>Region</th>
+                        <th>Resource</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>gpt-5-3-chat-20260418</td>
+                        <td>2026-03-03</td>
+                        <td>GlobalStandard</td>
+                        <td>northcentralus</td>
+                        <td>mcp-foundry-project26-resource</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="gpt-4o" class="model-section" style="border-left-color:#3b82f6;">
+            <div class="section-header">
+                <h2 class="model-title">gpt-4o</h2>
+                <span class="badge" style="background:#3b82f6;">Retiring in 165d</span>
+            </div>
+
+            <div class="info-grid">
+                <div class="info-row">
+                    <span class="info-label">Context Window</span>
+                    <span class="info-value">N/A tokens</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Max Output Tokens</span>
+                    <span class="info-value">N/A</span>
+                </div>
+                
+            <div class="info-row">
+                <span class="info-label">Retirement Date</span>
+                <span class="info-value" style="color:#3b82f6;font-weight:600;">
+                    2026-10-01 &nbsp;(165 days left)
+                </span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">Replacement Model</span>
+                <span class="info-value">gpt-5.1</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">Replacement Status</span>
+                <span class="info-value"><span style="color:#f59e0b;font-weight:600;">&#9888; Not Deployed</span></span>
+            </div>
+            </div>
+
+            <h3 class="sub-heading">Deployments in this Resource Group</h3>
+            <table class="dep-table">
+                <thead>
+                    <tr>
+                        <th>Deployment Name</th>
+                        <th>Version</th>
+                        <th>SKU</th>
+                        <th>Region</th>
+                        <th>Resource</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>gpt-4o</td>
+                        <td>2024-11-20</td>
+                        <td>GlobalStandard</td>
+                        <td>northcentralus</td>
+                        <td>mcp-foundry-project26-resource</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="gpt-4-1" class="model-section" style="border-left-color:#3b82f6;">
+            <div class="section-header">
+                <h2 class="model-title">gpt-4.1</h2>
+                <span class="badge" style="background:#3b82f6;">Retiring in 178d</span>
+            </div>
+
+            <div class="info-grid">
+                <div class="info-row">
+                    <span class="info-label">Context Window</span>
+                    <span class="info-value">N/A tokens</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Max Output Tokens</span>
+                    <span class="info-value">N/A</span>
+                </div>
+                
+            <div class="info-row">
+                <span class="info-label">Retirement Date</span>
+                <span class="info-value" style="color:#3b82f6;font-weight:600;">
+                    2026-10-14 &nbsp;(178 days left)
+                </span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">Replacement Model</span>
+                <span class="info-value">gpt-5</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">Replacement Status</span>
+                <span class="info-value"><span style="color:#f59e0b;font-weight:600;">&#9888; Not Deployed</span></span>
+            </div>
+            </div>
+
+            <h3 class="sub-heading">Deployments in this Resource Group</h3>
+            <table class="dep-table">
+                <thead>
+                    <tr>
+                        <th>Deployment Name</th>
+                        <th>Version</th>
+                        <th>SKU</th>
+                        <th>Region</th>
+                        <th>Resource</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>gpt-4.1</td>
+                        <td>2025-04-14</td>
+                        <td>GlobalStandard</td>
+                        <td>northcentralus</td>
+                        <td>mcp-foundry-project26-resource</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <div class="footer">
+            Generated by Azure AI Foundry Model Documentation Generator &nbsp;|&nbsp;
+            <a href="https://ShivaSubramaniam-NR.github.io/model-docs/" target="_blank">https://ShivaSubramaniam-NR.github.io/model-docs/</a>
+        </div>
+
+    </div><!-- /content -->
+</div><!-- /main -->
+
+</body>
+</html>
