@@ -27,7 +27,7 @@
 
 | Deployment Name | Version | SKU | Region | Resource |
 |---|---|---|---|---|
-| gpt-5-3-chat-20260418 | 2026-03-03 | GlobalStandard | northcentralus | mcp-foundry-project26-resource |
+| gpt-5-3-chat-20260419 | 2026-03-03 | GlobalStandard | northcentralus | mcp-foundry-project26-resource |
 
 ---
 
@@ -49,7 +49,7 @@ client = AzureOpenAI(
 )
 
 response = client.chat.completions.create(
-    model="gpt-5-3-chat-20260418",               # deployment name (not model name)
+    model="gpt-5-3-chat-20260419",               # deployment name (not model name)
     messages=[
         {"role": "system", "content": "You are a helpful assistant."},
         {"role": "user",   "content": "Hello! What can you help me with today?"}
@@ -66,7 +66,7 @@ print(response.choices[0].message.content)
 ### Endpoint
 
 ```
-POST https://mcp-foundry-project26-resource.openai.azure.com/openai/deployments/gpt-5-3-chat-20260418/chat/completions?api-version=2024-10-21
+POST https://mcp-foundry-project26-resource.openai.azure.com/openai/deployments/gpt-5-3-chat-20260419/chat/completions?api-version=2024-10-21
 ```
 
 ### Request Body
@@ -112,4 +112,4 @@ POST https://mcp-foundry-project26-resource.openai.azure.com/openai/deployments/
 
 ---
 
-*Last updated: 2026-04-19 12:48 | [Azure Portal](https://portal.azure.com/#resource/subscriptions/1172b053-825e-438c-8968-4fbca25c3080/resourceGroups/rg-mcp-foundry-project26/overview) | [Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models)*
+*Last updated: 2026-04-19 12:55 | [Azure Portal](https://portal.azure.com/#resource/subscriptions/1172b053-825e-438c-8968-4fbca25c3080/resourceGroups/rg-mcp-foundry-project26/overview) | [Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models)*
