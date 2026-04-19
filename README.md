@@ -1,7 +1,7 @@
 # Azure AI Foundry — Model Documentation
 
 > **Resource Group:** `rg-mcp-foundry-project26`
-> **Last Updated:** 2026-04-19 12:55
+> **Last Updated:** 2026-04-19 13:43
 > **Azure Portal:** [Open Resource Group](https://portal.azure.com/#resource/subscriptions/1172b053-825e-438c-8968-4fbca25c3080/resourceGroups/rg-mcp-foundry-project26/overview)
 
 ---
@@ -14,6 +14,15 @@
 | [gpt-5.3-chat](gpt-5-3-chat.md) | gpt-5-3-chat-20260419 | northcentralus | N/A | 2026-06-01 | N/A | 🟡 Retiring in 43 days |
 | [gpt-4o](gpt-4o.md) | gpt-4o | northcentralus | N/A | 2026-10-01 | gpt-5.1 | 🔵 Retiring in 165 days |
 | [gpt-4.1](gpt-4-1.md) | gpt-4.1 | northcentralus | N/A | 2026-10-14 | gpt-5 | 🔵 Retiring in 178 days |
+
+---
+
+## Pages
+
+| Page | Description |
+|---|---|
+| [Model Documentation](README.md) | This page — index of all deployed models |
+| [Pricing](pricing.md) | Azure OpenAI pricing by model and region |
 
 ---
 
@@ -34,7 +43,8 @@ Run the following from the `myfoundry` project folder whenever deployments chang
 python generate_docs.py
 ```
 
-The script will show you what changed and ask for confirmation before publishing.
+The script detects changes, shows a diff, and raises a Pull Request on GitHub.
+Approve and merge the PR to publish the updates.
 
 ---
 
