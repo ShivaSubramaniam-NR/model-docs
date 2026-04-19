@@ -1,7 +1,7 @@
 # Azure AI Foundry — Model Documentation
 
 > **Resource Group:** `rg-mcp-foundry-project26`
-> **Last Updated:** 2026-04-19 13:43
+> **Last Updated:** 2026-04-19 16:29
 > **Azure Portal:** [Open Resource Group](https://portal.azure.com/#resource/subscriptions/1172b053-825e-438c-8968-4fbca25c3080/resourceGroups/rg-mcp-foundry-project26/overview)
 
 ---
