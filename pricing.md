@@ -1,7 +1,7 @@
 # Azure OpenAI — Model Pricing
 
 > **Resource Group:** `rg-mcp-foundry-project26`
-> **Last Updated:** 2026-04-25 19:43
+> **Last Updated:** 2026-04-25 20:23
 > Prices in **USD**. Source: [Azure Retail Prices API](https://prices.azure.com/api/retail/prices)
 
 ---
@@ -14,6 +14,9 @@
 
 | Meter | Region(s) | Price | Per |
 |---|---|---|---|
+| 4.1 pp cd inp Gl Tokens | All regions | $0.000875 | 1K |
+| 4.1 pp inp Gl Tokens | All regions | $0.003500 | 1K |
+| 4.1 pp opt Gl Tokens | All regions | $0.014000 | 1K |
 | gpt 4.1 cached Inp glbl Tokens | All regions | $0.000500 | 1K |
 | gpt 4.1 Inp glbl Tokens | All regions | $0.002000 | 1K |
 | gpt 4.1 Outp glbl Tokens | All regions | $0.008000 | 1K |
@@ -22,6 +25,9 @@
 
 | Meter | Region(s) | Price | Per |
 |---|---|---|---|
+| 4.1 pp cd inp Dz Tokens | All regions | $0.000963 | 1K |
+| 4.1 pp inp Dz Tokens | All regions | $0.003850 | 1K |
+| 4.1 pp opt Dz Tokens | All regions | $0.015400 | 1K |
 | gpt 4.1 cached Inp Data Zone Tokens | All regions | $0.000550 | 1K |
 | gpt 4.1 Inp Data Zone Tokens | All regions | $0.002200 | 1K |
 | gpt 4.1 Outp Data Zone Tokens | All regions | $0.008800 | 1K |
@@ -96,6 +102,12 @@
 | gpt 4o 1120 Inp Data Zone Tokens | usgovarizona, usgovvirginia | $0.003438 | 1K |
 | gpt 4o 1120 Outp Data Zone Tokens | All regions | $0.011000 | 1K |
 | gpt 4o 1120 Outp Data Zone Tokens | usgovarizona, usgovvirginia | $0.013750 | 1K |
+| gpt 4o tcrb d aud inp dz Tokens | All regions | $0.006600 | 1K |
+| gpt 4o tcrb d txt inp dz Tokens | All regions | $0.002750 | 1K |
+| gpt 4o tcrb d txt out dz Tokens | All regions | $0.011000 | 1K |
+| gpt-4o-transcribe-aud-inp-dz Tokens | All regions | $0.006600 | 1K |
+| gpt-4o-transcribe-txt-inp-dz Tokens | All regions | $0.002750 | 1K |
+| gpt-4o-transcribe-txt-out-dz Tokens | All regions | $0.011000 | 1K |
 
 #### Regional Standard
 
@@ -120,9 +132,6 @@
 | gpt 4o 1120 Outp regnl Tokens | All regions | $0.012100 | 1K |
 | gpt 4o 1120 Outp regnl Tokens | usgovarizona, usgovvirginia | $0.013750 | 1K |
 | gpt 4o mini0718 BatchOutp DataZone Tokens | All regions | $0.000330 | 1K |
-| gpt 4o tcrb d aud inp dz Tokens | All regions | $0.006600 | 1K |
-| gpt 4o tcrb d txt inp dz Tokens | All regions | $0.002750 | 1K |
-| gpt 4o tcrb d txt out dz Tokens | All regions | $0.011000 | 1K |
 | gpt-4o-0806-Inp-regnl Tokens | All regions | $0.002750 | 1K |
 | gpt-4o-0806-Inp-regnl Tokens | southeastasia | $0.003300 | 1K |
 | gpt-4o-0806-Outp-regnl Tokens | All regions | $0.011000 | 1K |
@@ -187,13 +196,10 @@
 | gpt-4o-rt-txt-1217 Outp DZone Tokens | All regions | $0.022000 | 1K |
 | gpt-4o-rt-txt-1217 Outp regnl Tokens | All regions | $0.022000 | 1K |
 | gpt-4o-rt-txt-1217 Outp regnl Tokens | swedencentral | $0.024200 | 1K |
-| gpt-4o-transcribe-aud-inp-dz Tokens | All regions | $0.006600 | 1K |
 | gpt-4o-transcribe-aud-inp-rgnl Tokens | All regions | $0.006600 | 1K |
 | gpt-4o-transcribe-aud-inp-rgnl Tokens | swedencentral | $0.007260 | 1K |
-| gpt-4o-transcribe-txt-inp-dz Tokens | All regions | $0.002750 | 1K |
 | gpt-4o-transcribe-txt-inp-rgnl Tokens | All regions | $0.002750 | 1K |
 | gpt-4o-transcribe-txt-inp-rgnl Tokens | swedencentral | $0.003025 | 1K |
-| gpt-4o-transcribe-txt-out-dz Tokens | All regions | $0.011000 | 1K |
 | gpt-4o-transcribe-txt-out-rgnl Tokens | All regions | $0.011000 | 1K |
 | gpt-4o-transcribe-txt-out-rgnl Tokens | swedencentral | $0.012100 | 1K |
 
@@ -207,11 +213,23 @@
 | GPT 5 Chat Inpt Glbl 1M Tokens | All regions | $1.250000 | 1M |
 | GPT 5 Chat outpt Glbl 1M Tokens | All regions | $10.000000 | 1M |
 
----
+### gpt-5.3-chat
 
-### Models with no pricing data yet
+#### Global Standard
 
-- **gpt-5.3-chat** — not yet listed in the Azure Retail Prices API. See the [Azure pricing page](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/) for the latest.
+| Meter | Region(s) | Price | Per |
+|---|---|---|---|
+| 5.3 chat cd inp Gl 1M Tokens | All regions | $0.175000 | 1M |
+| 5.3 chat inp Gl 1M Tokens | All regions | $1.750000 | 1M |
+| 5.3 chat opt Gl 1M Tokens | All regions | $14.000000 | 1M |
+
+#### Data Zone Standard
+
+| Meter | Region(s) | Price | Per |
+|---|---|---|---|
+| 5.3 chat cd inp Dz 1M Tokens | All regions | $0.192500 | 1M |
+| 5.3 chat inp Dz 1M Tokens | All regions | $1.925000 | 1M |
+| 5.3 chat opt Dz 1M Tokens | All regions | $15.400000 | 1M |
 
 ---
 
@@ -220,4 +238,4 @@
 
 ---
 
-*Last updated: 2026-04-25 19:43 | [Azure Portal](https://portal.azure.com/#resource/subscriptions/1172b053-825e-438c-8968-4fbca25c3080/resourceGroups/rg-mcp-foundry-project26/overview)*
+*Last updated: 2026-04-25 20:23 | [Azure Portal](https://portal.azure.com/#resource/subscriptions/1172b053-825e-438c-8968-4fbca25c3080/resourceGroups/rg-mcp-foundry-project26/overview)*

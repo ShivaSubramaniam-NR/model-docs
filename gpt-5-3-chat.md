@@ -109,4 +109,4 @@ POST https://mcp-foundry-project26-resource.openai.azure.com/openai/deployments/
 
 ---
 
-*Last updated: 2026-04-25 19:43 | [Azure Portal](https://portal.azure.com/#resource/subscriptions/1172b053-825e-438c-8968-4fbca25c3080/resourceGroups/rg-mcp-foundry-project26/overview) | [Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models)*
+*Last updated: 2026-04-25 20:23 | [Azure Portal](https://portal.azure.com/#resource/subscriptions/1172b053-825e-438c-8968-4fbca25c3080/resourceGroups/rg-mcp-foundry-project26/overview) | [Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models)*

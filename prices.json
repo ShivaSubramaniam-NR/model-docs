@@ -2,6 +2,318 @@
   {
     "model_group": "gpt-4.1",
     "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp cd inp Dz Tokens",
+    "region": "centralus",
+    "price": 0.000963,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp cd inp Dz Tokens",
+    "region": "eastus",
+    "price": 0.000963,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp cd inp Dz Tokens",
+    "region": "eastus2",
+    "price": 0.000963,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp cd inp Dz Tokens",
+    "region": "francecentral",
+    "price": 0.000963,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp cd inp Dz Tokens",
+    "region": "germanywestcentral",
+    "price": 0.000963,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp cd inp Dz Tokens",
+    "region": "northcentralus",
+    "price": 0.000963,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp cd inp Dz Tokens",
+    "region": "polandcentral",
+    "price": 0.000963,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp cd inp Dz Tokens",
+    "region": "southcentralus",
+    "price": 0.000963,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp cd inp Dz Tokens",
+    "region": "spaincentral",
+    "price": 0.000963,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp cd inp Dz Tokens",
+    "region": "swedencentral",
+    "price": 0.000963,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp cd inp Dz Tokens",
+    "region": "westeurope",
+    "price": 0.000963,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp cd inp Dz Tokens",
+    "region": "westus",
+    "price": 0.000963,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp cd inp Dz Tokens",
+    "region": "westus3",
+    "price": 0.000963,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp inp Dz Tokens",
+    "region": "centralus",
+    "price": 0.00385,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp inp Dz Tokens",
+    "region": "eastus",
+    "price": 0.00385,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp inp Dz Tokens",
+    "region": "eastus2",
+    "price": 0.00385,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp inp Dz Tokens",
+    "region": "francecentral",
+    "price": 0.00385,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp inp Dz Tokens",
+    "region": "germanywestcentral",
+    "price": 0.00385,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp inp Dz Tokens",
+    "region": "northcentralus",
+    "price": 0.00385,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp inp Dz Tokens",
+    "region": "polandcentral",
+    "price": 0.00385,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp inp Dz Tokens",
+    "region": "southcentralus",
+    "price": 0.00385,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp inp Dz Tokens",
+    "region": "spaincentral",
+    "price": 0.00385,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp inp Dz Tokens",
+    "region": "swedencentral",
+    "price": 0.00385,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp inp Dz Tokens",
+    "region": "westeurope",
+    "price": 0.00385,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp inp Dz Tokens",
+    "region": "westus",
+    "price": 0.00385,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp inp Dz Tokens",
+    "region": "westus3",
+    "price": 0.00385,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp opt Dz Tokens",
+    "region": "centralus",
+    "price": 0.0154,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp opt Dz Tokens",
+    "region": "eastus",
+    "price": 0.0154,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp opt Dz Tokens",
+    "region": "eastus2",
+    "price": 0.0154,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp opt Dz Tokens",
+    "region": "francecentral",
+    "price": 0.0154,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp opt Dz Tokens",
+    "region": "germanywestcentral",
+    "price": 0.0154,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp opt Dz Tokens",
+    "region": "northcentralus",
+    "price": 0.0154,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp opt Dz Tokens",
+    "region": "polandcentral",
+    "price": 0.0154,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp opt Dz Tokens",
+    "region": "southcentralus",
+    "price": 0.0154,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp opt Dz Tokens",
+    "region": "spaincentral",
+    "price": 0.0154,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp opt Dz Tokens",
+    "region": "swedencentral",
+    "price": 0.0154,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp opt Dz Tokens",
+    "region": "westeurope",
+    "price": 0.0154,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp opt Dz Tokens",
+    "region": "westus",
+    "price": 0.0154,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "4.1 pp opt Dz Tokens",
+    "region": "westus3",
+    "price": 0.0154,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
     "meter_name": "gpt 4.1 cached Inp Data Zone Tokens",
     "region": "centralus",
     "price": 0.00055,
@@ -357,6 +669,582 @@
     "meter_name": "gpt 4.1 Outp Data Zone Tokens",
     "region": "westus3",
     "price": 0.0088,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp cd inp Gl Tokens",
+    "region": "australiaeast",
+    "price": 0.000875,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp cd inp Gl Tokens",
+    "region": "brazilsouth",
+    "price": 0.000875,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp cd inp Gl Tokens",
+    "region": "canadaeast",
+    "price": 0.000875,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp cd inp Gl Tokens",
+    "region": "centralus",
+    "price": 0.000875,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp cd inp Gl Tokens",
+    "region": "eastus",
+    "price": 0.000875,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp cd inp Gl Tokens",
+    "region": "eastus2",
+    "price": 0.000875,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp cd inp Gl Tokens",
+    "region": "francecentral",
+    "price": 0.000875,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp cd inp Gl Tokens",
+    "region": "germanywestcentral",
+    "price": 0.000875,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp cd inp Gl Tokens",
+    "region": "japaneast",
+    "price": 0.000875,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp cd inp Gl Tokens",
+    "region": "koreacentral",
+    "price": 0.000875,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp cd inp Gl Tokens",
+    "region": "northcentralus",
+    "price": 0.000875,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp cd inp Gl Tokens",
+    "region": "norwayeast",
+    "price": 0.000875,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp cd inp Gl Tokens",
+    "region": "polandcentral",
+    "price": 0.000875,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp cd inp Gl Tokens",
+    "region": "southafricanorth",
+    "price": 0.000875,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp cd inp Gl Tokens",
+    "region": "southcentralus",
+    "price": 0.000875,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp cd inp Gl Tokens",
+    "region": "southindia",
+    "price": 0.000875,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp cd inp Gl Tokens",
+    "region": "spaincentral",
+    "price": 0.000875,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp cd inp Gl Tokens",
+    "region": "swedencentral",
+    "price": 0.000875,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp cd inp Gl Tokens",
+    "region": "switzerlandnorth",
+    "price": 0.000875,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp cd inp Gl Tokens",
+    "region": "uaenorth",
+    "price": 0.000875,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp cd inp Gl Tokens",
+    "region": "uksouth",
+    "price": 0.000875,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp cd inp Gl Tokens",
+    "region": "westeurope",
+    "price": 0.000875,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp cd inp Gl Tokens",
+    "region": "westus",
+    "price": 0.000875,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp cd inp Gl Tokens",
+    "region": "westus3",
+    "price": 0.000875,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp inp Gl Tokens",
+    "region": "australiaeast",
+    "price": 0.0035,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp inp Gl Tokens",
+    "region": "brazilsouth",
+    "price": 0.0035,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp inp Gl Tokens",
+    "region": "canadaeast",
+    "price": 0.0035,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp inp Gl Tokens",
+    "region": "centralus",
+    "price": 0.0035,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp inp Gl Tokens",
+    "region": "eastus",
+    "price": 0.0035,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp inp Gl Tokens",
+    "region": "eastus2",
+    "price": 0.0035,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp inp Gl Tokens",
+    "region": "francecentral",
+    "price": 0.0035,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp inp Gl Tokens",
+    "region": "germanywestcentral",
+    "price": 0.0035,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp inp Gl Tokens",
+    "region": "japaneast",
+    "price": 0.0035,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp inp Gl Tokens",
+    "region": "koreacentral",
+    "price": 0.0035,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp inp Gl Tokens",
+    "region": "northcentralus",
+    "price": 0.0035,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp inp Gl Tokens",
+    "region": "norwayeast",
+    "price": 0.0035,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp inp Gl Tokens",
+    "region": "polandcentral",
+    "price": 0.0035,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp inp Gl Tokens",
+    "region": "southafricanorth",
+    "price": 0.0035,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp inp Gl Tokens",
+    "region": "southcentralus",
+    "price": 0.0035,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp inp Gl Tokens",
+    "region": "southindia",
+    "price": 0.0035,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp inp Gl Tokens",
+    "region": "spaincentral",
+    "price": 0.0035,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp inp Gl Tokens",
+    "region": "swedencentral",
+    "price": 0.0035,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp inp Gl Tokens",
+    "region": "switzerlandnorth",
+    "price": 0.0035,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp inp Gl Tokens",
+    "region": "uaenorth",
+    "price": 0.0035,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp inp Gl Tokens",
+    "region": "uksouth",
+    "price": 0.0035,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp inp Gl Tokens",
+    "region": "westeurope",
+    "price": 0.0035,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp inp Gl Tokens",
+    "region": "westus",
+    "price": 0.0035,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp inp Gl Tokens",
+    "region": "westus3",
+    "price": 0.0035,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp opt Gl Tokens",
+    "region": "australiaeast",
+    "price": 0.014,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp opt Gl Tokens",
+    "region": "brazilsouth",
+    "price": 0.014,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp opt Gl Tokens",
+    "region": "canadaeast",
+    "price": 0.014,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp opt Gl Tokens",
+    "region": "centralus",
+    "price": 0.014,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp opt Gl Tokens",
+    "region": "eastus",
+    "price": 0.014,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp opt Gl Tokens",
+    "region": "eastus2",
+    "price": 0.014,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp opt Gl Tokens",
+    "region": "francecentral",
+    "price": 0.014,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp opt Gl Tokens",
+    "region": "germanywestcentral",
+    "price": 0.014,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp opt Gl Tokens",
+    "region": "japaneast",
+    "price": 0.014,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp opt Gl Tokens",
+    "region": "koreacentral",
+    "price": 0.014,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp opt Gl Tokens",
+    "region": "northcentralus",
+    "price": 0.014,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp opt Gl Tokens",
+    "region": "norwayeast",
+    "price": 0.014,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp opt Gl Tokens",
+    "region": "polandcentral",
+    "price": 0.014,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp opt Gl Tokens",
+    "region": "southafricanorth",
+    "price": 0.014,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp opt Gl Tokens",
+    "region": "southcentralus",
+    "price": 0.014,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp opt Gl Tokens",
+    "region": "southindia",
+    "price": 0.014,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp opt Gl Tokens",
+    "region": "spaincentral",
+    "price": 0.014,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp opt Gl Tokens",
+    "region": "swedencentral",
+    "price": 0.014,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp opt Gl Tokens",
+    "region": "switzerlandnorth",
+    "price": 0.014,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp opt Gl Tokens",
+    "region": "uaenorth",
+    "price": 0.014,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp opt Gl Tokens",
+    "region": "uksouth",
+    "price": 0.014,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp opt Gl Tokens",
+    "region": "westeurope",
+    "price": 0.014,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp opt Gl Tokens",
+    "region": "westus",
+    "price": 0.014,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "meter_name": "4.1 pp opt Gl Tokens",
+    "region": "westus3",
+    "price": 0.014,
     "unit": "1K"
   },
   {
@@ -2235,6 +3123,582 @@
     "model_group": "gpt-4o",
     "deploy_tier": "Data Zone Standard",
     "meter_name": "gpt 4o 1120 Outp Data Zone Tokens",
+    "region": "westus3",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d aud inp dz Tokens",
+    "region": "eastus",
+    "price": 0.0066,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d aud inp dz Tokens",
+    "region": "eastus2",
+    "price": 0.0066,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d aud inp dz Tokens",
+    "region": "francecentral",
+    "price": 0.0066,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d aud inp dz Tokens",
+    "region": "germanywestcentral",
+    "price": 0.0066,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d aud inp dz Tokens",
+    "region": "northcentralus",
+    "price": 0.0066,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d aud inp dz Tokens",
+    "region": "polandcentral",
+    "price": 0.0066,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d aud inp dz Tokens",
+    "region": "southcentralus",
+    "price": 0.0066,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d aud inp dz Tokens",
+    "region": "spaincentral",
+    "price": 0.0066,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d aud inp dz Tokens",
+    "region": "swedencentral",
+    "price": 0.0066,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d aud inp dz Tokens",
+    "region": "westeurope",
+    "price": 0.0066,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d aud inp dz Tokens",
+    "region": "westus",
+    "price": 0.0066,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d aud inp dz Tokens",
+    "region": "westus3",
+    "price": 0.0066,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d txt inp dz Tokens",
+    "region": "eastus",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d txt inp dz Tokens",
+    "region": "eastus2",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d txt inp dz Tokens",
+    "region": "francecentral",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d txt inp dz Tokens",
+    "region": "germanywestcentral",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d txt inp dz Tokens",
+    "region": "northcentralus",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d txt inp dz Tokens",
+    "region": "polandcentral",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d txt inp dz Tokens",
+    "region": "southcentralus",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d txt inp dz Tokens",
+    "region": "spaincentral",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d txt inp dz Tokens",
+    "region": "swedencentral",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d txt inp dz Tokens",
+    "region": "westeurope",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d txt inp dz Tokens",
+    "region": "westus",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d txt inp dz Tokens",
+    "region": "westus3",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d txt out dz Tokens",
+    "region": "eastus",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d txt out dz Tokens",
+    "region": "eastus2",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d txt out dz Tokens",
+    "region": "francecentral",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d txt out dz Tokens",
+    "region": "germanywestcentral",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d txt out dz Tokens",
+    "region": "northcentralus",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d txt out dz Tokens",
+    "region": "polandcentral",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d txt out dz Tokens",
+    "region": "southcentralus",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d txt out dz Tokens",
+    "region": "spaincentral",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d txt out dz Tokens",
+    "region": "swedencentral",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d txt out dz Tokens",
+    "region": "westeurope",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d txt out dz Tokens",
+    "region": "westus",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt 4o tcrb d txt out dz Tokens",
+    "region": "westus3",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-aud-inp-dz Tokens",
+    "region": "eastus",
+    "price": 0.0066,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-aud-inp-dz Tokens",
+    "region": "eastus2",
+    "price": 0.0066,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-aud-inp-dz Tokens",
+    "region": "francecentral",
+    "price": 0.0066,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-aud-inp-dz Tokens",
+    "region": "germanywestcentral",
+    "price": 0.0066,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-aud-inp-dz Tokens",
+    "region": "northcentralus",
+    "price": 0.0066,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-aud-inp-dz Tokens",
+    "region": "polandcentral",
+    "price": 0.0066,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-aud-inp-dz Tokens",
+    "region": "southcentralus",
+    "price": 0.0066,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-aud-inp-dz Tokens",
+    "region": "spaincentral",
+    "price": 0.0066,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-aud-inp-dz Tokens",
+    "region": "swedencentral",
+    "price": 0.0066,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-aud-inp-dz Tokens",
+    "region": "westeurope",
+    "price": 0.0066,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-aud-inp-dz Tokens",
+    "region": "westus",
+    "price": 0.0066,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-aud-inp-dz Tokens",
+    "region": "westus3",
+    "price": 0.0066,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-txt-inp-dz Tokens",
+    "region": "eastus",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-txt-inp-dz Tokens",
+    "region": "eastus2",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-txt-inp-dz Tokens",
+    "region": "francecentral",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-txt-inp-dz Tokens",
+    "region": "germanywestcentral",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-txt-inp-dz Tokens",
+    "region": "northcentralus",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-txt-inp-dz Tokens",
+    "region": "polandcentral",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-txt-inp-dz Tokens",
+    "region": "southcentralus",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-txt-inp-dz Tokens",
+    "region": "spaincentral",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-txt-inp-dz Tokens",
+    "region": "swedencentral",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-txt-inp-dz Tokens",
+    "region": "westeurope",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-txt-inp-dz Tokens",
+    "region": "westus",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-txt-inp-dz Tokens",
+    "region": "westus3",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-txt-out-dz Tokens",
+    "region": "eastus",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-txt-out-dz Tokens",
+    "region": "eastus2",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-txt-out-dz Tokens",
+    "region": "francecentral",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-txt-out-dz Tokens",
+    "region": "germanywestcentral",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-txt-out-dz Tokens",
+    "region": "northcentralus",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-txt-out-dz Tokens",
+    "region": "polandcentral",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-txt-out-dz Tokens",
+    "region": "southcentralus",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-txt-out-dz Tokens",
+    "region": "spaincentral",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-txt-out-dz Tokens",
+    "region": "swedencentral",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-txt-out-dz Tokens",
+    "region": "westeurope",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-txt-out-dz Tokens",
+    "region": "westus",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "gpt-4o-transcribe-txt-out-dz Tokens",
     "region": "westus3",
     "price": 0.011,
     "unit": "1K"
@@ -9602,294 +11066,6 @@
   {
     "model_group": "gpt-4o",
     "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d aud inp dz Tokens",
-    "region": "eastus",
-    "price": 0.0066,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d aud inp dz Tokens",
-    "region": "eastus2",
-    "price": 0.0066,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d aud inp dz Tokens",
-    "region": "francecentral",
-    "price": 0.0066,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d aud inp dz Tokens",
-    "region": "germanywestcentral",
-    "price": 0.0066,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d aud inp dz Tokens",
-    "region": "northcentralus",
-    "price": 0.0066,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d aud inp dz Tokens",
-    "region": "polandcentral",
-    "price": 0.0066,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d aud inp dz Tokens",
-    "region": "southcentralus",
-    "price": 0.0066,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d aud inp dz Tokens",
-    "region": "spaincentral",
-    "price": 0.0066,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d aud inp dz Tokens",
-    "region": "swedencentral",
-    "price": 0.0066,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d aud inp dz Tokens",
-    "region": "westeurope",
-    "price": 0.0066,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d aud inp dz Tokens",
-    "region": "westus",
-    "price": 0.0066,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d aud inp dz Tokens",
-    "region": "westus3",
-    "price": 0.0066,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d txt inp dz Tokens",
-    "region": "eastus",
-    "price": 0.00275,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d txt inp dz Tokens",
-    "region": "eastus2",
-    "price": 0.00275,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d txt inp dz Tokens",
-    "region": "francecentral",
-    "price": 0.00275,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d txt inp dz Tokens",
-    "region": "germanywestcentral",
-    "price": 0.00275,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d txt inp dz Tokens",
-    "region": "northcentralus",
-    "price": 0.00275,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d txt inp dz Tokens",
-    "region": "polandcentral",
-    "price": 0.00275,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d txt inp dz Tokens",
-    "region": "southcentralus",
-    "price": 0.00275,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d txt inp dz Tokens",
-    "region": "spaincentral",
-    "price": 0.00275,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d txt inp dz Tokens",
-    "region": "swedencentral",
-    "price": 0.00275,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d txt inp dz Tokens",
-    "region": "westeurope",
-    "price": 0.00275,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d txt inp dz Tokens",
-    "region": "westus",
-    "price": 0.00275,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d txt inp dz Tokens",
-    "region": "westus3",
-    "price": 0.00275,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d txt out dz Tokens",
-    "region": "eastus",
-    "price": 0.011,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d txt out dz Tokens",
-    "region": "eastus2",
-    "price": 0.011,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d txt out dz Tokens",
-    "region": "francecentral",
-    "price": 0.011,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d txt out dz Tokens",
-    "region": "germanywestcentral",
-    "price": 0.011,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d txt out dz Tokens",
-    "region": "northcentralus",
-    "price": 0.011,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d txt out dz Tokens",
-    "region": "polandcentral",
-    "price": 0.011,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d txt out dz Tokens",
-    "region": "southcentralus",
-    "price": 0.011,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d txt out dz Tokens",
-    "region": "spaincentral",
-    "price": 0.011,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d txt out dz Tokens",
-    "region": "swedencentral",
-    "price": 0.011,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d txt out dz Tokens",
-    "region": "westeurope",
-    "price": 0.011,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d txt out dz Tokens",
-    "region": "westus",
-    "price": 0.011,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt 4o tcrb d txt out dz Tokens",
-    "region": "westus3",
-    "price": 0.011,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
     "meter_name": "gpt-4o-0806-Inp-regnl Tokens",
     "region": "centralus",
     "price": 0.00275,
@@ -13074,102 +14250,6 @@
   {
     "model_group": "gpt-4o",
     "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-aud-inp-dz Tokens",
-    "region": "eastus",
-    "price": 0.0066,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-aud-inp-dz Tokens",
-    "region": "eastus2",
-    "price": 0.0066,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-aud-inp-dz Tokens",
-    "region": "francecentral",
-    "price": 0.0066,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-aud-inp-dz Tokens",
-    "region": "germanywestcentral",
-    "price": 0.0066,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-aud-inp-dz Tokens",
-    "region": "northcentralus",
-    "price": 0.0066,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-aud-inp-dz Tokens",
-    "region": "polandcentral",
-    "price": 0.0066,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-aud-inp-dz Tokens",
-    "region": "southcentralus",
-    "price": 0.0066,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-aud-inp-dz Tokens",
-    "region": "spaincentral",
-    "price": 0.0066,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-aud-inp-dz Tokens",
-    "region": "swedencentral",
-    "price": 0.0066,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-aud-inp-dz Tokens",
-    "region": "westeurope",
-    "price": 0.0066,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-aud-inp-dz Tokens",
-    "region": "westus",
-    "price": 0.0066,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-aud-inp-dz Tokens",
-    "region": "westus3",
-    "price": 0.0066,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
     "meter_name": "gpt-4o-transcribe-aud-inp-rgnl Tokens",
     "region": "eastus",
     "price": 0.0066,
@@ -13226,102 +14306,6 @@
   {
     "model_group": "gpt-4o",
     "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-txt-inp-dz Tokens",
-    "region": "eastus",
-    "price": 0.00275,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-txt-inp-dz Tokens",
-    "region": "eastus2",
-    "price": 0.00275,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-txt-inp-dz Tokens",
-    "region": "francecentral",
-    "price": 0.00275,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-txt-inp-dz Tokens",
-    "region": "germanywestcentral",
-    "price": 0.00275,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-txt-inp-dz Tokens",
-    "region": "northcentralus",
-    "price": 0.00275,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-txt-inp-dz Tokens",
-    "region": "polandcentral",
-    "price": 0.00275,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-txt-inp-dz Tokens",
-    "region": "southcentralus",
-    "price": 0.00275,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-txt-inp-dz Tokens",
-    "region": "spaincentral",
-    "price": 0.00275,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-txt-inp-dz Tokens",
-    "region": "swedencentral",
-    "price": 0.00275,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-txt-inp-dz Tokens",
-    "region": "westeurope",
-    "price": 0.00275,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-txt-inp-dz Tokens",
-    "region": "westus",
-    "price": 0.00275,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-txt-inp-dz Tokens",
-    "region": "westus3",
-    "price": 0.00275,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
     "meter_name": "gpt-4o-transcribe-txt-inp-rgnl Tokens",
     "region": "eastus",
     "price": 0.00275,
@@ -13373,102 +14357,6 @@
     "meter_name": "gpt-4o-transcribe-txt-inp-rgnl Tokens",
     "region": "westus3",
     "price": 0.00275,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-txt-out-dz Tokens",
-    "region": "eastus",
-    "price": 0.011,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-txt-out-dz Tokens",
-    "region": "eastus2",
-    "price": 0.011,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-txt-out-dz Tokens",
-    "region": "francecentral",
-    "price": 0.011,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-txt-out-dz Tokens",
-    "region": "germanywestcentral",
-    "price": 0.011,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-txt-out-dz Tokens",
-    "region": "northcentralus",
-    "price": 0.011,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-txt-out-dz Tokens",
-    "region": "polandcentral",
-    "price": 0.011,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-txt-out-dz Tokens",
-    "region": "southcentralus",
-    "price": 0.011,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-txt-out-dz Tokens",
-    "region": "spaincentral",
-    "price": 0.011,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-txt-out-dz Tokens",
-    "region": "swedencentral",
-    "price": 0.011,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-txt-out-dz Tokens",
-    "region": "westeurope",
-    "price": 0.011,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-txt-out-dz Tokens",
-    "region": "westus",
-    "price": 0.011,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "deploy_tier": "Regional Standard",
-    "meter_name": "gpt-4o-transcribe-txt-out-dz Tokens",
-    "region": "westus3",
-    "price": 0.011,
     "unit": "1K"
   },
   {
@@ -14125,6 +15013,894 @@
     "meter_name": "GPT 5 Chat outpt Glbl 1M Tokens",
     "region": "westus3",
     "price": 10.0,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat cd inp Dz 1M Tokens",
+    "region": "centralus",
+    "price": 0.1925,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat cd inp Dz 1M Tokens",
+    "region": "eastus",
+    "price": 0.1925,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat cd inp Dz 1M Tokens",
+    "region": "eastus2",
+    "price": 0.1925,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat cd inp Dz 1M Tokens",
+    "region": "francecentral",
+    "price": 0.1925,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat cd inp Dz 1M Tokens",
+    "region": "germanywestcentral",
+    "price": 0.1925,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat cd inp Dz 1M Tokens",
+    "region": "northcentralus",
+    "price": 0.1925,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat cd inp Dz 1M Tokens",
+    "region": "polandcentral",
+    "price": 0.1925,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat cd inp Dz 1M Tokens",
+    "region": "southcentralus",
+    "price": 0.1925,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat cd inp Dz 1M Tokens",
+    "region": "spaincentral",
+    "price": 0.1925,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat cd inp Dz 1M Tokens",
+    "region": "swedencentral",
+    "price": 0.1925,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat cd inp Dz 1M Tokens",
+    "region": "westeurope",
+    "price": 0.1925,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat cd inp Dz 1M Tokens",
+    "region": "westus",
+    "price": 0.1925,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat cd inp Dz 1M Tokens",
+    "region": "westus3",
+    "price": 0.1925,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat inp Dz 1M Tokens",
+    "region": "centralus",
+    "price": 1.925,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat inp Dz 1M Tokens",
+    "region": "eastus",
+    "price": 1.925,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat inp Dz 1M Tokens",
+    "region": "eastus2",
+    "price": 1.925,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat inp Dz 1M Tokens",
+    "region": "francecentral",
+    "price": 1.925,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat inp Dz 1M Tokens",
+    "region": "germanywestcentral",
+    "price": 1.925,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat inp Dz 1M Tokens",
+    "region": "northcentralus",
+    "price": 1.925,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat inp Dz 1M Tokens",
+    "region": "polandcentral",
+    "price": 1.925,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat inp Dz 1M Tokens",
+    "region": "southcentralus",
+    "price": 1.925,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat inp Dz 1M Tokens",
+    "region": "spaincentral",
+    "price": 1.925,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat inp Dz 1M Tokens",
+    "region": "swedencentral",
+    "price": 1.925,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat inp Dz 1M Tokens",
+    "region": "westeurope",
+    "price": 1.925,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat inp Dz 1M Tokens",
+    "region": "westus",
+    "price": 1.925,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat inp Dz 1M Tokens",
+    "region": "westus3",
+    "price": 1.925,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat opt Dz 1M Tokens",
+    "region": "centralus",
+    "price": 15.4,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat opt Dz 1M Tokens",
+    "region": "eastus",
+    "price": 15.4,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat opt Dz 1M Tokens",
+    "region": "eastus2",
+    "price": 15.4,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat opt Dz 1M Tokens",
+    "region": "francecentral",
+    "price": 15.4,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat opt Dz 1M Tokens",
+    "region": "germanywestcentral",
+    "price": 15.4,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat opt Dz 1M Tokens",
+    "region": "northcentralus",
+    "price": 15.4,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat opt Dz 1M Tokens",
+    "region": "polandcentral",
+    "price": 15.4,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat opt Dz 1M Tokens",
+    "region": "southcentralus",
+    "price": 15.4,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat opt Dz 1M Tokens",
+    "region": "spaincentral",
+    "price": 15.4,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat opt Dz 1M Tokens",
+    "region": "swedencentral",
+    "price": 15.4,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat opt Dz 1M Tokens",
+    "region": "westeurope",
+    "price": 15.4,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat opt Dz 1M Tokens",
+    "region": "westus",
+    "price": 15.4,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Data Zone Standard",
+    "meter_name": "5.3 chat opt Dz 1M Tokens",
+    "region": "westus3",
+    "price": 15.4,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat cd inp Gl 1M Tokens",
+    "region": "australiaeast",
+    "price": 0.175,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat cd inp Gl 1M Tokens",
+    "region": "brazilsouth",
+    "price": 0.175,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat cd inp Gl 1M Tokens",
+    "region": "canadaeast",
+    "price": 0.175,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat cd inp Gl 1M Tokens",
+    "region": "centralus",
+    "price": 0.175,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat cd inp Gl 1M Tokens",
+    "region": "eastus",
+    "price": 0.175,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat cd inp Gl 1M Tokens",
+    "region": "eastus2",
+    "price": 0.175,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat cd inp Gl 1M Tokens",
+    "region": "francecentral",
+    "price": 0.175,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat cd inp Gl 1M Tokens",
+    "region": "germanywestcentral",
+    "price": 0.175,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat cd inp Gl 1M Tokens",
+    "region": "japaneast",
+    "price": 0.175,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat cd inp Gl 1M Tokens",
+    "region": "koreacentral",
+    "price": 0.175,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat cd inp Gl 1M Tokens",
+    "region": "northcentralus",
+    "price": 0.175,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat cd inp Gl 1M Tokens",
+    "region": "norwayeast",
+    "price": 0.175,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat cd inp Gl 1M Tokens",
+    "region": "polandcentral",
+    "price": 0.175,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat cd inp Gl 1M Tokens",
+    "region": "southafricanorth",
+    "price": 0.175,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat cd inp Gl 1M Tokens",
+    "region": "southcentralus",
+    "price": 0.175,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat cd inp Gl 1M Tokens",
+    "region": "southindia",
+    "price": 0.175,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat cd inp Gl 1M Tokens",
+    "region": "spaincentral",
+    "price": 0.175,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat cd inp Gl 1M Tokens",
+    "region": "swedencentral",
+    "price": 0.175,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat cd inp Gl 1M Tokens",
+    "region": "switzerlandnorth",
+    "price": 0.175,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat cd inp Gl 1M Tokens",
+    "region": "uaenorth",
+    "price": 0.175,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat cd inp Gl 1M Tokens",
+    "region": "uksouth",
+    "price": 0.175,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat cd inp Gl 1M Tokens",
+    "region": "westeurope",
+    "price": 0.175,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat cd inp Gl 1M Tokens",
+    "region": "westus",
+    "price": 0.175,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat cd inp Gl 1M Tokens",
+    "region": "westus3",
+    "price": 0.175,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat inp Gl 1M Tokens",
+    "region": "australiaeast",
+    "price": 1.75,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat inp Gl 1M Tokens",
+    "region": "brazilsouth",
+    "price": 1.75,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat inp Gl 1M Tokens",
+    "region": "canadaeast",
+    "price": 1.75,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat inp Gl 1M Tokens",
+    "region": "centralus",
+    "price": 1.75,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat inp Gl 1M Tokens",
+    "region": "eastus",
+    "price": 1.75,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat inp Gl 1M Tokens",
+    "region": "eastus2",
+    "price": 1.75,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat inp Gl 1M Tokens",
+    "region": "francecentral",
+    "price": 1.75,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat inp Gl 1M Tokens",
+    "region": "germanywestcentral",
+    "price": 1.75,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat inp Gl 1M Tokens",
+    "region": "japaneast",
+    "price": 1.75,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat inp Gl 1M Tokens",
+    "region": "koreacentral",
+    "price": 1.75,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat inp Gl 1M Tokens",
+    "region": "northcentralus",
+    "price": 1.75,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat inp Gl 1M Tokens",
+    "region": "norwayeast",
+    "price": 1.75,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat inp Gl 1M Tokens",
+    "region": "polandcentral",
+    "price": 1.75,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat inp Gl 1M Tokens",
+    "region": "southafricanorth",
+    "price": 1.75,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat inp Gl 1M Tokens",
+    "region": "southcentralus",
+    "price": 1.75,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat inp Gl 1M Tokens",
+    "region": "southindia",
+    "price": 1.75,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat inp Gl 1M Tokens",
+    "region": "spaincentral",
+    "price": 1.75,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat inp Gl 1M Tokens",
+    "region": "swedencentral",
+    "price": 1.75,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat inp Gl 1M Tokens",
+    "region": "switzerlandnorth",
+    "price": 1.75,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat inp Gl 1M Tokens",
+    "region": "uaenorth",
+    "price": 1.75,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat inp Gl 1M Tokens",
+    "region": "uksouth",
+    "price": 1.75,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat inp Gl 1M Tokens",
+    "region": "westeurope",
+    "price": 1.75,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat inp Gl 1M Tokens",
+    "region": "westus",
+    "price": 1.75,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat inp Gl 1M Tokens",
+    "region": "westus3",
+    "price": 1.75,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat opt Gl 1M Tokens",
+    "region": "australiaeast",
+    "price": 14.0,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat opt Gl 1M Tokens",
+    "region": "brazilsouth",
+    "price": 14.0,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat opt Gl 1M Tokens",
+    "region": "canadaeast",
+    "price": 14.0,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat opt Gl 1M Tokens",
+    "region": "centralus",
+    "price": 14.0,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat opt Gl 1M Tokens",
+    "region": "eastus",
+    "price": 14.0,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat opt Gl 1M Tokens",
+    "region": "eastus2",
+    "price": 14.0,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat opt Gl 1M Tokens",
+    "region": "francecentral",
+    "price": 14.0,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat opt Gl 1M Tokens",
+    "region": "germanywestcentral",
+    "price": 14.0,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat opt Gl 1M Tokens",
+    "region": "japaneast",
+    "price": 14.0,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat opt Gl 1M Tokens",
+    "region": "koreacentral",
+    "price": 14.0,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat opt Gl 1M Tokens",
+    "region": "northcentralus",
+    "price": 14.0,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat opt Gl 1M Tokens",
+    "region": "norwayeast",
+    "price": 14.0,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat opt Gl 1M Tokens",
+    "region": "polandcentral",
+    "price": 14.0,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat opt Gl 1M Tokens",
+    "region": "southafricanorth",
+    "price": 14.0,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat opt Gl 1M Tokens",
+    "region": "southcentralus",
+    "price": 14.0,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat opt Gl 1M Tokens",
+    "region": "southindia",
+    "price": 14.0,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat opt Gl 1M Tokens",
+    "region": "spaincentral",
+    "price": 14.0,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat opt Gl 1M Tokens",
+    "region": "swedencentral",
+    "price": 14.0,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat opt Gl 1M Tokens",
+    "region": "switzerlandnorth",
+    "price": 14.0,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat opt Gl 1M Tokens",
+    "region": "uaenorth",
+    "price": 14.0,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat opt Gl 1M Tokens",
+    "region": "uksouth",
+    "price": 14.0,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat opt Gl 1M Tokens",
+    "region": "westeurope",
+    "price": 14.0,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat opt Gl 1M Tokens",
+    "region": "westus",
+    "price": 14.0,
+    "unit": "1M"
+  },
+  {
+    "model_group": "gpt-5.3-chat",
+    "deploy_tier": "Global Standard",
+    "meter_name": "5.3 chat opt Gl 1M Tokens",
+    "region": "westus3",
+    "price": 14.0,
     "unit": "1M"
   }
 ]
