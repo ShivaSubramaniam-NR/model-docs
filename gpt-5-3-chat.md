@@ -1,15 +1,12 @@
 # gpt-5.3-chat
 
-> **Status:** 🟡 Retiring in 43 days
-> **Retirement Date:** 2026-06-01  
-> **Replacement Model:** N/A  
-> **Replacement Status:** ⚠️ Not Deployed  
+> **Status:** 🟢 Active
 
 ---
 
 ## Overview
 
-- **[Registration is required for access to gpt-5.3-codex](https://aka.ms/OAI/gpt53codexaccess).**
+See the [Azure OpenAI models documentation](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models) for details about gpt-5.3-chat.
 
 ---
 
@@ -112,4 +109,4 @@ POST https://mcp-foundry-project26-resource.openai.azure.com/openai/deployments/
 
 ---
 
-*Last updated: 2026-04-19 16:31 | [Azure Portal](https://portal.azure.com/#resource/subscriptions/1172b053-825e-438c-8968-4fbca25c3080/resourceGroups/rg-mcp-foundry-project26/overview) | [Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models)*
+*Last updated: 2026-04-25 13:55 | [Azure Portal](https://portal.azure.com/#resource/subscriptions/1172b053-825e-438c-8968-4fbca25c3080/resourceGroups/rg-mcp-foundry-project26/overview) | [Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models)*
