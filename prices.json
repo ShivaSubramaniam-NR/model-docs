@@ -1,62 +1,23 @@
 [
   {
     "model_group": "gpt-4.1",
-    "region": "australiaeast",
-    "token_type": "Input",
-    "price": 0.002,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4.1",
-    "region": "australiaeast",
-    "token_type": "Output",
-    "price": 0.008,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4.1",
-    "region": "brazilsouth",
-    "token_type": "Input",
-    "price": 0.002,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4.1",
-    "region": "brazilsouth",
-    "token_type": "Output",
-    "price": 0.008,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4.1",
-    "region": "canadaeast",
-    "token_type": "Input",
-    "price": 0.002,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4.1",
-    "region": "canadaeast",
-    "token_type": "Output",
-    "price": 0.008,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
     "region": "centralus",
     "token_type": "Input",
-    "price": 0.002,
+    "price": 0.0022,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
     "region": "centralus",
     "token_type": "Output",
-    "price": 0.008,
+    "price": 0.0088,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
     "region": "eastus",
     "token_type": "Input",
     "price": 0.0022,
@@ -64,6 +25,7 @@
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
     "region": "eastus",
     "token_type": "Output",
     "price": 0.0088,
@@ -71,13 +33,15 @@
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
     "region": "eastus2",
     "token_type": "Input",
-    "price": 0.002,
+    "price": 0.0022,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
     "region": "eastus2",
     "token_type": "Output",
     "price": 0.0088,
@@ -85,6 +49,7 @@
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
     "region": "francecentral",
     "token_type": "Input",
     "price": 0.0022,
@@ -92,6 +57,295 @@
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "region": "francecentral",
+    "token_type": "Output",
+    "price": 0.0088,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "region": "germanywestcentral",
+    "token_type": "Input",
+    "price": 0.0022,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "region": "germanywestcentral",
+    "token_type": "Output",
+    "price": 0.0088,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "region": "italynorth",
+    "token_type": "Input",
+    "price": 0.0022,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "region": "italynorth",
+    "token_type": "Output",
+    "price": 0.0088,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "region": "northcentralus",
+    "token_type": "Input",
+    "price": 0.0022,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "region": "northcentralus",
+    "token_type": "Output",
+    "price": 0.0088,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "region": "polandcentral",
+    "token_type": "Input",
+    "price": 0.0022,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "region": "polandcentral",
+    "token_type": "Output",
+    "price": 0.0088,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "region": "southcentralus",
+    "token_type": "Input",
+    "price": 0.0022,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "region": "southcentralus",
+    "token_type": "Output",
+    "price": 0.0088,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "region": "spaincentral",
+    "token_type": "Input",
+    "price": 0.0022,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "region": "spaincentral",
+    "token_type": "Output",
+    "price": 0.0088,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "region": "swedencentral",
+    "token_type": "Input",
+    "price": 0.0022,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "region": "swedencentral",
+    "token_type": "Output",
+    "price": 0.0088,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "region": "westeurope",
+    "token_type": "Input",
+    "price": 0.0022,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "region": "westeurope",
+    "token_type": "Output",
+    "price": 0.0088,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "region": "westus",
+    "token_type": "Input",
+    "price": 0.0022,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "region": "westus",
+    "token_type": "Output",
+    "price": 0.0088,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "region": "westus2",
+    "token_type": "Input",
+    "price": 0.0022,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "region": "westus2",
+    "token_type": "Output",
+    "price": 0.0088,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "region": "westus3",
+    "token_type": "Input",
+    "price": 0.0022,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Data Zone Standard",
+    "region": "westus3",
+    "token_type": "Output",
+    "price": 0.0088,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "australiaeast",
+    "token_type": "Input",
+    "price": 0.002,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "australiaeast",
+    "token_type": "Output",
+    "price": 0.008,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "brazilsouth",
+    "token_type": "Input",
+    "price": 0.002,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "brazilsouth",
+    "token_type": "Output",
+    "price": 0.008,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "canadaeast",
+    "token_type": "Input",
+    "price": 0.002,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "canadaeast",
+    "token_type": "Output",
+    "price": 0.008,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "centralus",
+    "token_type": "Input",
+    "price": 0.002,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "centralus",
+    "token_type": "Output",
+    "price": 0.008,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "eastus",
+    "token_type": "Input",
+    "price": 0.002,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "eastus",
+    "token_type": "Output",
+    "price": 0.008,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "eastus2",
+    "token_type": "Input",
+    "price": 0.002,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "eastus2",
+    "token_type": "Output",
+    "price": 0.008,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "francecentral",
+    "token_type": "Input",
+    "price": 0.002,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
     "region": "francecentral",
     "token_type": "Output",
     "price": 0.008,
@@ -99,34 +353,39 @@
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
     "region": "germanywestcentral",
     "token_type": "Input",
-    "price": 0.0022,
+    "price": 0.002,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
     "region": "germanywestcentral",
     "token_type": "Output",
-    "price": 0.0088,
+    "price": 0.008,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
     "region": "italynorth",
     "token_type": "Input",
-    "price": 0.0022,
+    "price": 0.002,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
     "region": "italynorth",
     "token_type": "Output",
-    "price": 0.0088,
+    "price": 0.008,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
     "region": "japaneast",
     "token_type": "Input",
     "price": 0.002,
@@ -134,6 +393,7 @@
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
     "region": "japaneast",
     "token_type": "Output",
     "price": 0.008,
@@ -141,6 +401,7 @@
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
     "region": "koreacentral",
     "token_type": "Input",
     "price": 0.002,
@@ -148,6 +409,7 @@
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
     "region": "koreacentral",
     "token_type": "Output",
     "price": 0.008,
@@ -155,6 +417,7 @@
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
     "region": "northcentralus",
     "token_type": "Input",
     "price": 0.002,
@@ -162,6 +425,295 @@
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "northcentralus",
+    "token_type": "Output",
+    "price": 0.008,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "norwayeast",
+    "token_type": "Input",
+    "price": 0.002,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "norwayeast",
+    "token_type": "Output",
+    "price": 0.008,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "polandcentral",
+    "token_type": "Input",
+    "price": 0.002,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "polandcentral",
+    "token_type": "Output",
+    "price": 0.008,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "southafricanorth",
+    "token_type": "Input",
+    "price": 0.002,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "southafricanorth",
+    "token_type": "Output",
+    "price": 0.008,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "southcentralus",
+    "token_type": "Input",
+    "price": 0.002,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "southcentralus",
+    "token_type": "Output",
+    "price": 0.008,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "southeastasia",
+    "token_type": "Input",
+    "price": 0.002,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "southeastasia",
+    "token_type": "Output",
+    "price": 0.008,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "southindia",
+    "token_type": "Input",
+    "price": 0.002,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "southindia",
+    "token_type": "Output",
+    "price": 0.008,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "spaincentral",
+    "token_type": "Input",
+    "price": 0.002,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "spaincentral",
+    "token_type": "Output",
+    "price": 0.008,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "swedencentral",
+    "token_type": "Input",
+    "price": 0.002,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "swedencentral",
+    "token_type": "Output",
+    "price": 0.008,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "switzerlandnorth",
+    "token_type": "Input",
+    "price": 0.002,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "switzerlandnorth",
+    "token_type": "Output",
+    "price": 0.008,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "uaenorth",
+    "token_type": "Input",
+    "price": 0.002,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "uaenorth",
+    "token_type": "Output",
+    "price": 0.008,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "uksouth",
+    "token_type": "Input",
+    "price": 0.002,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "uksouth",
+    "token_type": "Output",
+    "price": 0.008,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "westeurope",
+    "token_type": "Input",
+    "price": 0.002,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "westeurope",
+    "token_type": "Output",
+    "price": 0.008,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "westus",
+    "token_type": "Input",
+    "price": 0.002,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "westus",
+    "token_type": "Output",
+    "price": 0.008,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "westus2",
+    "token_type": "Input",
+    "price": 0.002,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "westus2",
+    "token_type": "Output",
+    "price": 0.008,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "westus3",
+    "token_type": "Input",
+    "price": 0.002,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Global Standard",
+    "region": "westus3",
+    "token_type": "Output",
+    "price": 0.008,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Regional Standard",
+    "region": "eastus",
+    "token_type": "Input",
+    "price": 0.0022,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Regional Standard",
+    "region": "eastus",
+    "token_type": "Output",
+    "price": 0.0088,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Regional Standard",
+    "region": "eastus2",
+    "token_type": "Input",
+    "price": 0.0022,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Regional Standard",
+    "region": "eastus2",
+    "token_type": "Output",
+    "price": 0.0088,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Regional Standard",
+    "region": "northcentralus",
+    "token_type": "Input",
+    "price": 0.0022,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4.1",
+    "deploy_tier": "Regional Standard",
     "region": "northcentralus",
     "token_type": "Output",
     "price": 0.0088,
@@ -169,55 +721,15 @@
   },
   {
     "model_group": "gpt-4.1",
-    "region": "norwayeast",
-    "token_type": "Input",
-    "price": 0.002,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4.1",
-    "region": "norwayeast",
-    "token_type": "Output",
-    "price": 0.008,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4.1",
-    "region": "polandcentral",
-    "token_type": "Input",
-    "price": 0.002,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4.1",
-    "region": "polandcentral",
-    "token_type": "Output",
-    "price": 0.0088,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4.1",
-    "region": "southafricanorth",
-    "token_type": "Input",
-    "price": 0.002,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4.1",
-    "region": "southafricanorth",
-    "token_type": "Output",
-    "price": 0.008,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4.1",
+    "deploy_tier": "Regional Standard",
     "region": "southcentralus",
     "token_type": "Input",
-    "price": 0.002,
+    "price": 0.0022,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Regional Standard",
     "region": "southcentralus",
     "token_type": "Output",
     "price": 0.0088,
@@ -225,48 +737,7 @@
   },
   {
     "model_group": "gpt-4.1",
-    "region": "southeastasia",
-    "token_type": "Input",
-    "price": 0.002,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4.1",
-    "region": "southeastasia",
-    "token_type": "Output",
-    "price": 0.008,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4.1",
-    "region": "southindia",
-    "token_type": "Input",
-    "price": 0.002,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4.1",
-    "region": "southindia",
-    "token_type": "Output",
-    "price": 0.008,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4.1",
-    "region": "spaincentral",
-    "token_type": "Input",
-    "price": 0.002,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4.1",
-    "region": "spaincentral",
-    "token_type": "Output",
-    "price": 0.0088,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4.1",
+    "deploy_tier": "Regional Standard",
     "region": "swedencentral",
     "token_type": "Input",
     "price": 0.00242,
@@ -274,20 +745,23 @@
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Regional Standard",
     "region": "swedencentral",
     "token_type": "Output",
-    "price": 0.0088,
+    "price": 0.00968,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Regional Standard",
     "region": "switzerlandnorth",
     "token_type": "Input",
-    "price": 0.002,
+    "price": 0.00242,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Regional Standard",
     "region": "switzerlandnorth",
     "token_type": "Output",
     "price": 0.00968,
@@ -295,34 +769,7 @@
   },
   {
     "model_group": "gpt-4.1",
-    "region": "uaenorth",
-    "token_type": "Input",
-    "price": 0.002,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4.1",
-    "region": "uaenorth",
-    "token_type": "Output",
-    "price": 0.008,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4.1",
-    "region": "uksouth",
-    "token_type": "Input",
-    "price": 0.002,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4.1",
-    "region": "uksouth",
-    "token_type": "Output",
-    "price": 0.008,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4.1",
+    "deploy_tier": "Regional Standard",
     "region": "usgovarizona",
     "token_type": "Input",
     "price": 0.00275,
@@ -330,6 +777,7 @@
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Regional Standard",
     "region": "usgovarizona",
     "token_type": "Output",
     "price": 0.011,
@@ -337,6 +785,7 @@
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Regional Standard",
     "region": "usgovvirginia",
     "token_type": "Input",
     "price": 0.00275,
@@ -344,6 +793,7 @@
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Regional Standard",
     "region": "usgovvirginia",
     "token_type": "Output",
     "price": 0.011,
@@ -351,20 +801,7 @@
   },
   {
     "model_group": "gpt-4.1",
-    "region": "westeurope",
-    "token_type": "Input",
-    "price": 0.002,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4.1",
-    "region": "westeurope",
-    "token_type": "Output",
-    "price": 0.0088,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4.1",
+    "deploy_tier": "Regional Standard",
     "region": "westus",
     "token_type": "Input",
     "price": 0.0022,
@@ -372,20 +809,23 @@
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Regional Standard",
     "region": "westus",
     "token_type": "Output",
-    "price": 0.008,
+    "price": 0.0088,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Regional Standard",
     "region": "westus2",
     "token_type": "Input",
-    "price": 0.002,
+    "price": 0.0022,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Regional Standard",
     "region": "westus2",
     "token_type": "Output",
     "price": 0.0088,
@@ -393,13 +833,15 @@
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Regional Standard",
     "region": "westus3",
     "token_type": "Input",
-    "price": 0.002,
+    "price": 0.0022,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4.1",
+    "deploy_tier": "Regional Standard",
     "region": "westus3",
     "token_type": "Output",
     "price": 0.0088,
@@ -407,62 +849,7 @@
   },
   {
     "model_group": "gpt-4o",
-    "region": "australiaeast",
-    "token_type": "Input",
-    "price": 0.005,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "region": "australiaeast",
-    "token_type": "Output",
-    "price": 0.08,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "region": "brazilsouth",
-    "token_type": "Input",
-    "price": 0.0025,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "region": "brazilsouth",
-    "token_type": "Output",
-    "price": 0.08,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "region": "canadacentral",
-    "token_type": "Input",
-    "price": 0.0025,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "region": "canadacentral",
-    "token_type": "Output",
-    "price": 0.01,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "region": "canadaeast",
-    "token_type": "Input",
-    "price": 0.04,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "region": "canadaeast",
-    "token_type": "Output",
-    "price": 0.08,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
     "region": "centralus",
     "token_type": "Input",
     "price": 0.00275,
@@ -470,6 +857,7 @@
   },
   {
     "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
     "region": "centralus",
     "token_type": "Output",
     "price": 0.011,
@@ -477,69 +865,79 @@
   },
   {
     "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
     "region": "eastus",
-    "token_type": "Input",
-    "price": 0.00275,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "region": "eastus",
-    "token_type": "Output",
-    "price": 0.088,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "region": "eastus2",
     "token_type": "Input",
     "price": 0.0055,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4o",
-    "region": "eastus2",
+    "deploy_tier": "Data Zone Standard",
+    "region": "eastus",
     "token_type": "Output",
-    "price": 0.022,
+    "price": 0.011,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4o",
-    "region": "francecentral",
+    "deploy_tier": "Data Zone Standard",
+    "region": "eastus2",
     "token_type": "Input",
     "price": 0.00275,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "region": "eastus2",
+    "token_type": "Output",
+    "price": 0.0165,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "region": "francecentral",
+    "token_type": "Input",
+    "price": 0.0055,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
     "region": "francecentral",
     "token_type": "Output",
-    "price": 0.02,
+    "price": 0.011,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
     "region": "germanywestcentral",
     "token_type": "Input",
-    "price": 0.0025,
+    "price": 0.0055,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
     "region": "germanywestcentral",
     "token_type": "Output",
-    "price": 0.088,
+    "price": 0.011,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
     "region": "italynorth",
     "token_type": "Input",
-    "price": 0.0025,
+    "price": 0.00275,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
     "region": "italynorth",
     "token_type": "Output",
     "price": 0.011,
@@ -547,104 +945,71 @@
   },
   {
     "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
     "region": "japaneast",
-    "token_type": "Input",
-    "price": 0.0025,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "region": "japaneast",
-    "token_type": "Output",
-    "price": 0.02,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "region": "koreacentral",
-    "token_type": "Input",
-    "price": 0.0025,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "region": "koreacentral",
-    "token_type": "Output",
-    "price": 0.08,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "region": "northcentralus",
     "token_type": "Input",
     "price": 0.00275,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "region": "japaneast",
+    "token_type": "Output",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "region": "northcentralus",
+    "token_type": "Input",
+    "price": 0.0055,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
     "region": "northcentralus",
     "token_type": "Output",
-    "price": 0.01,
+    "price": 0.011,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4o",
-    "region": "norwayeast",
-    "token_type": "Input",
-    "price": 0.003025,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "region": "norwayeast",
-    "token_type": "Output",
-    "price": 0.01,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
     "region": "polandcentral",
-    "token_type": "Input",
-    "price": 0.0025,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "region": "polandcentral",
-    "token_type": "Output",
-    "price": 0.08,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "region": "southafricanorth",
-    "token_type": "Input",
-    "price": 0.04,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "region": "southafricanorth",
-    "token_type": "Output",
-    "price": 0.01,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "region": "southcentralus",
     "token_type": "Input",
     "price": 0.00275,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4o",
-    "region": "southcentralus",
+    "deploy_tier": "Data Zone Standard",
+    "region": "polandcentral",
     "token_type": "Output",
-    "price": 0.02,
+    "price": 0.011,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "region": "southcentralus",
+    "token_type": "Input",
+    "price": 0.0055,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "region": "southcentralus",
+    "token_type": "Output",
+    "price": 0.0165,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
     "region": "southeastasia",
     "token_type": "Input",
     "price": 0.00275,
@@ -652,41 +1017,31 @@
   },
   {
     "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
     "region": "southeastasia",
     "token_type": "Output",
-    "price": 0.01,
+    "price": 0.011,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4o",
-    "region": "southindia",
-    "token_type": "Input",
-    "price": 0.005,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "region": "southindia",
-    "token_type": "Output",
-    "price": 0.01,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
     "region": "spaincentral",
     "token_type": "Input",
-    "price": 0.0025,
+    "price": 0.00275,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
     "region": "spaincentral",
     "token_type": "Output",
-    "price": 0.02,
+    "price": 0.0165,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
     "region": "swedencentral",
     "token_type": "Input",
     "price": 0.00275,
@@ -694,55 +1049,15 @@
   },
   {
     "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
     "region": "swedencentral",
     "token_type": "Output",
-    "price": 0.08,
+    "price": 0.011,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4o",
-    "region": "switzerlandnorth",
-    "token_type": "Input",
-    "price": 0.0025,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "region": "switzerlandnorth",
-    "token_type": "Output",
-    "price": 0.0121,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "region": "uaenorth",
-    "token_type": "Input",
-    "price": 0.04,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "region": "uaenorth",
-    "token_type": "Output",
-    "price": 0.0121,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "region": "uksouth",
-    "token_type": "Input",
-    "price": 0.005,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
-    "region": "uksouth",
-    "token_type": "Output",
-    "price": 0.02,
-    "unit": "1K"
-  },
-  {
-    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
     "region": "usgovarizona",
     "token_type": "Input",
     "price": 0.003438,
@@ -750,6 +1065,7 @@
   },
   {
     "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
     "region": "usgovarizona",
     "token_type": "Output",
     "price": 0.01375,
@@ -757,6 +1073,7 @@
   },
   {
     "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
     "region": "usgovvirginia",
     "token_type": "Input",
     "price": 0.003438,
@@ -764,6 +1081,7 @@
   },
   {
     "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
     "region": "usgovvirginia",
     "token_type": "Output",
     "price": 0.01375,
@@ -771,6 +1089,7 @@
   },
   {
     "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
     "region": "westcentralus",
     "token_type": "Input",
     "price": 0.0055,
@@ -778,6 +1097,455 @@
   },
   {
     "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "region": "westcentralus",
+    "token_type": "Output",
+    "price": 0.0165,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "region": "westeurope",
+    "token_type": "Input",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "region": "westeurope",
+    "token_type": "Output",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "region": "westus",
+    "token_type": "Input",
+    "price": 0.0055,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "region": "westus",
+    "token_type": "Output",
+    "price": 0.0165,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "region": "westus3",
+    "token_type": "Input",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Data Zone Standard",
+    "region": "westus3",
+    "token_type": "Output",
+    "price": 0.0165,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "australiaeast",
+    "token_type": "Input",
+    "price": 0.005,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "australiaeast",
+    "token_type": "Output",
+    "price": 0.08,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "brazilsouth",
+    "token_type": "Input",
+    "price": 0.0025,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "brazilsouth",
+    "token_type": "Output",
+    "price": 0.08,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "canadacentral",
+    "token_type": "Input",
+    "price": 0.0025,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "canadacentral",
+    "token_type": "Output",
+    "price": 0.01,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "canadaeast",
+    "token_type": "Input",
+    "price": 0.04,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "canadaeast",
+    "token_type": "Output",
+    "price": 0.08,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "centralus",
+    "token_type": "Input",
+    "price": 0.0025,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "centralus",
+    "token_type": "Output",
+    "price": 0.015,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "eastus",
+    "token_type": "Input",
+    "price": 0.005,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "eastus",
+    "token_type": "Output",
+    "price": 0.015,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "eastus2",
+    "token_type": "Input",
+    "price": 0.0025,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "eastus2",
+    "token_type": "Output",
+    "price": 0.08,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "francecentral",
+    "token_type": "Input",
+    "price": 0.0025,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "francecentral",
+    "token_type": "Output",
+    "price": 0.02,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "germanywestcentral",
+    "token_type": "Input",
+    "price": 0.0025,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "germanywestcentral",
+    "token_type": "Output",
+    "price": 0.01,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "italynorth",
+    "token_type": "Input",
+    "price": 0.0025,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "italynorth",
+    "token_type": "Output",
+    "price": 0.01,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "japaneast",
+    "token_type": "Input",
+    "price": 0.0025,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "japaneast",
+    "token_type": "Output",
+    "price": 0.02,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "koreacentral",
+    "token_type": "Input",
+    "price": 0.0025,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "koreacentral",
+    "token_type": "Output",
+    "price": 0.08,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "northcentralus",
+    "token_type": "Input",
+    "price": 0.006,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "northcentralus",
+    "token_type": "Output",
+    "price": 0.01,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "norwayeast",
+    "token_type": "Input",
+    "price": 0.0025,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "norwayeast",
+    "token_type": "Output",
+    "price": 0.01,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "polandcentral",
+    "token_type": "Input",
+    "price": 0.0025,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "polandcentral",
+    "token_type": "Output",
+    "price": 0.08,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "southafricanorth",
+    "token_type": "Input",
+    "price": 0.04,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "southafricanorth",
+    "token_type": "Output",
+    "price": 0.01,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "southcentralus",
+    "token_type": "Input",
+    "price": 0.005,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "southcentralus",
+    "token_type": "Output",
+    "price": 0.02,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "southeastasia",
+    "token_type": "Input",
+    "price": 0.0025,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "southeastasia",
+    "token_type": "Output",
+    "price": 0.01,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "southindia",
+    "token_type": "Input",
+    "price": 0.005,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "southindia",
+    "token_type": "Output",
+    "price": 0.01,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "spaincentral",
+    "token_type": "Input",
+    "price": 0.0025,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "spaincentral",
+    "token_type": "Output",
+    "price": 0.02,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "swedencentral",
+    "token_type": "Input",
+    "price": 0.0025,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "swedencentral",
+    "token_type": "Output",
+    "price": 0.08,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "switzerlandnorth",
+    "token_type": "Input",
+    "price": 0.0025,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "switzerlandnorth",
+    "token_type": "Output",
+    "price": 0.01,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "uaenorth",
+    "token_type": "Input",
+    "price": 0.04,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "uaenorth",
+    "token_type": "Output",
+    "price": 0.01,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "uksouth",
+    "token_type": "Input",
+    "price": 0.005,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "uksouth",
+    "token_type": "Output",
+    "price": 0.02,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "westcentralus",
+    "token_type": "Input",
+    "price": 0.005,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
     "region": "westcentralus",
     "token_type": "Output",
     "price": 0.015,
@@ -785,6 +1553,7 @@
   },
   {
     "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
     "region": "westeurope",
     "token_type": "Input",
     "price": 0.006,
@@ -792,13 +1561,15 @@
   },
   {
     "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
     "region": "westeurope",
     "token_type": "Output",
-    "price": 0.022,
+    "price": 0.08,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
     "region": "westus",
     "token_type": "Input",
     "price": 0.0025,
@@ -806,13 +1577,15 @@
   },
   {
     "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
     "region": "westus",
     "token_type": "Output",
-    "price": 0.022,
+    "price": 0.01,
     "unit": "1K"
   },
   {
     "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
     "region": "westus2",
     "token_type": "Input",
     "price": 0.0025,
@@ -820,6 +1593,7 @@
   },
   {
     "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
     "region": "westus2",
     "token_type": "Output",
     "price": 0.08,
@@ -827,6 +1601,423 @@
   },
   {
     "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "westus3",
+    "token_type": "Input",
+    "price": 0.04,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Global Standard",
+    "region": "westus3",
+    "token_type": "Output",
+    "price": 0.08,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "australiaeast",
+    "token_type": "Input",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "australiaeast",
+    "token_type": "Output",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "canadaeast",
+    "token_type": "Input",
+    "price": 0.003025,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "canadaeast",
+    "token_type": "Output",
+    "price": 0.0121,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "centralus",
+    "token_type": "Input",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "centralus",
+    "token_type": "Output",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "eastus",
+    "token_type": "Input",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "eastus",
+    "token_type": "Output",
+    "price": 0.088,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "eastus2",
+    "token_type": "Input",
+    "price": 0.0055,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "eastus2",
+    "token_type": "Output",
+    "price": 0.022,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "francecentral",
+    "token_type": "Input",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "francecentral",
+    "token_type": "Output",
+    "price": 0.0121,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "germanywestcentral",
+    "token_type": "Input",
+    "price": 0.0066,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "germanywestcentral",
+    "token_type": "Output",
+    "price": 0.088,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "japaneast",
+    "token_type": "Input",
+    "price": 0.003025,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "japaneast",
+    "token_type": "Output",
+    "price": 0.0121,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "northcentralus",
+    "token_type": "Input",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "northcentralus",
+    "token_type": "Output",
+    "price": 0.022,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "norwayeast",
+    "token_type": "Input",
+    "price": 0.003025,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "norwayeast",
+    "token_type": "Output",
+    "price": 0.0121,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "polandcentral",
+    "token_type": "Input",
+    "price": 0.044,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "polandcentral",
+    "token_type": "Output",
+    "price": 0.088,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "southafricanorth",
+    "token_type": "Input",
+    "price": 0.003025,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "southafricanorth",
+    "token_type": "Output",
+    "price": 0.0121,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "southcentralus",
+    "token_type": "Input",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "southcentralus",
+    "token_type": "Output",
+    "price": 0.088,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "southeastasia",
+    "token_type": "Input",
+    "price": 0.0033,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "southeastasia",
+    "token_type": "Output",
+    "price": 0.0132,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "southindia",
+    "token_type": "Input",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "southindia",
+    "token_type": "Output",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "spaincentral",
+    "token_type": "Input",
+    "price": 0.044,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "spaincentral",
+    "token_type": "Output",
+    "price": 0.011,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "swedencentral",
+    "token_type": "Input",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "swedencentral",
+    "token_type": "Output",
+    "price": 0.0121,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "switzerlandnorth",
+    "token_type": "Input",
+    "price": 0.003025,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "switzerlandnorth",
+    "token_type": "Output",
+    "price": 0.0121,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "uaenorth",
+    "token_type": "Input",
+    "price": 0.003025,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "uaenorth",
+    "token_type": "Output",
+    "price": 0.0121,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "uksouth",
+    "token_type": "Input",
+    "price": 0.003025,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "uksouth",
+    "token_type": "Output",
+    "price": 0.0121,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "usgovarizona",
+    "token_type": "Input",
+    "price": 0.003438,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "usgovarizona",
+    "token_type": "Output",
+    "price": 0.01375,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "usgovvirginia",
+    "token_type": "Input",
+    "price": 0.00625,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "usgovvirginia",
+    "token_type": "Output",
+    "price": 0.01375,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "westcentralus",
+    "token_type": "Input",
+    "price": 0.0055,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "westcentralus",
+    "token_type": "Output",
+    "price": 0.0165,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "westeurope",
+    "token_type": "Input",
+    "price": 0.00275,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "westeurope",
+    "token_type": "Output",
+    "price": 0.022,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "westus",
+    "token_type": "Input",
+    "price": 0.044,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
+    "region": "westus",
+    "token_type": "Output",
+    "price": 0.022,
+    "unit": "1K"
+  },
+  {
+    "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
     "region": "westus3",
     "token_type": "Input",
     "price": 0.044,
@@ -834,6 +2025,7 @@
   },
   {
     "model_group": "gpt-4o",
+    "deploy_tier": "Regional Standard",
     "region": "westus3",
     "token_type": "Output",
     "price": 0.011,
@@ -841,6 +2033,7 @@
   },
   {
     "model_group": "gpt-5-chat",
+    "deploy_tier": "Global Standard",
     "region": "australiaeast",
     "token_type": "Input",
     "price": 0.125,
@@ -848,6 +2041,7 @@
   },
   {
     "model_group": "gpt-5-chat",
+    "deploy_tier": "Global Standard",
     "region": "brazilsouth",
     "token_type": "Input",
     "price": 1.25,
@@ -855,6 +2049,7 @@
   },
   {
     "model_group": "gpt-5-chat",
+    "deploy_tier": "Global Standard",
     "region": "canadaeast",
     "token_type": "Input",
     "price": 0.125,
@@ -862,6 +2057,7 @@
   },
   {
     "model_group": "gpt-5-chat",
+    "deploy_tier": "Global Standard",
     "region": "centralus",
     "token_type": "Input",
     "price": 1.25,
@@ -869,6 +2065,7 @@
   },
   {
     "model_group": "gpt-5-chat",
+    "deploy_tier": "Global Standard",
     "region": "eastus",
     "token_type": "Input",
     "price": 0.125,
@@ -876,6 +2073,7 @@
   },
   {
     "model_group": "gpt-5-chat",
+    "deploy_tier": "Global Standard",
     "region": "eastus2",
     "token_type": "Input",
     "price": 0.125,
@@ -883,6 +2081,7 @@
   },
   {
     "model_group": "gpt-5-chat",
+    "deploy_tier": "Global Standard",
     "region": "francecentral",
     "token_type": "Input",
     "price": 1.25,
@@ -890,6 +2089,7 @@
   },
   {
     "model_group": "gpt-5-chat",
+    "deploy_tier": "Global Standard",
     "region": "germanywestcentral",
     "token_type": "Input",
     "price": 1.25,
@@ -897,6 +2097,7 @@
   },
   {
     "model_group": "gpt-5-chat",
+    "deploy_tier": "Global Standard",
     "region": "japaneast",
     "token_type": "Input",
     "price": 1.25,
@@ -904,6 +2105,7 @@
   },
   {
     "model_group": "gpt-5-chat",
+    "deploy_tier": "Global Standard",
     "region": "koreacentral",
     "token_type": "Input",
     "price": 0.125,
@@ -911,6 +2113,7 @@
   },
   {
     "model_group": "gpt-5-chat",
+    "deploy_tier": "Global Standard",
     "region": "northcentralus",
     "token_type": "Input",
     "price": 1.25,
@@ -918,6 +2121,7 @@
   },
   {
     "model_group": "gpt-5-chat",
+    "deploy_tier": "Global Standard",
     "region": "norwayeast",
     "token_type": "Input",
     "price": 0.125,
@@ -925,6 +2129,7 @@
   },
   {
     "model_group": "gpt-5-chat",
+    "deploy_tier": "Global Standard",
     "region": "polandcentral",
     "token_type": "Input",
     "price": 0.125,
@@ -932,6 +2137,7 @@
   },
   {
     "model_group": "gpt-5-chat",
+    "deploy_tier": "Global Standard",
     "region": "southafricanorth",
     "token_type": "Input",
     "price": 1.25,
@@ -939,6 +2145,7 @@
   },
   {
     "model_group": "gpt-5-chat",
+    "deploy_tier": "Global Standard",
     "region": "southcentralus",
     "token_type": "Input",
     "price": 1.25,
@@ -946,6 +2153,7 @@
   },
   {
     "model_group": "gpt-5-chat",
+    "deploy_tier": "Global Standard",
     "region": "southindia",
     "token_type": "Input",
     "price": 1.25,
@@ -953,6 +2161,7 @@
   },
   {
     "model_group": "gpt-5-chat",
+    "deploy_tier": "Global Standard",
     "region": "spaincentral",
     "token_type": "Input",
     "price": 1.25,
@@ -960,6 +2169,7 @@
   },
   {
     "model_group": "gpt-5-chat",
+    "deploy_tier": "Global Standard",
     "region": "swedencentral",
     "token_type": "Input",
     "price": 0.125,
@@ -967,6 +2177,7 @@
   },
   {
     "model_group": "gpt-5-chat",
+    "deploy_tier": "Global Standard",
     "region": "switzerlandnorth",
     "token_type": "Input",
     "price": 1.25,
@@ -974,6 +2185,7 @@
   },
   {
     "model_group": "gpt-5-chat",
+    "deploy_tier": "Global Standard",
     "region": "uaenorth",
     "token_type": "Input",
     "price": 1.25,
@@ -981,6 +2193,7 @@
   },
   {
     "model_group": "gpt-5-chat",
+    "deploy_tier": "Global Standard",
     "region": "uksouth",
     "token_type": "Input",
     "price": 1.25,
@@ -988,6 +2201,7 @@
   },
   {
     "model_group": "gpt-5-chat",
+    "deploy_tier": "Global Standard",
     "region": "westeurope",
     "token_type": "Input",
     "price": 1.25,
@@ -995,6 +2209,7 @@
   },
   {
     "model_group": "gpt-5-chat",
+    "deploy_tier": "Global Standard",
     "region": "westus",
     "token_type": "Input",
     "price": 1.25,
@@ -1002,6 +2217,7 @@
   },
   {
     "model_group": "gpt-5-chat",
+    "deploy_tier": "Global Standard",
     "region": "westus2",
     "token_type": "Input",
     "price": 1.25,
@@ -1009,6 +2225,7 @@
   },
   {
     "model_group": "gpt-5-chat",
+    "deploy_tier": "Global Standard",
     "region": "westus3",
     "token_type": "Input",
     "price": 0.125,
