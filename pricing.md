@@ -1,7 +1,7 @@
 # Azure OpenAI — Model Pricing
 
 > **Resource Group:** `rg-mcp-foundry-project26`
-> **Last Updated:** 2026-04-25 20:23
+> **Last Updated:** 2026-05-02 12:19
 > Prices in **USD**. Source: [Azure Retail Prices API](https://prices.azure.com/api/retail/prices)
 
 ---
@@ -238,4 +238,4 @@
 
 ---
 
-*Last updated: 2026-04-25 20:23 | [Azure Portal](https://portal.azure.com/#resource/subscriptions/1172b053-825e-438c-8968-4fbca25c3080/resourceGroups/rg-mcp-foundry-project26/overview)*
+*Last updated: 2026-05-02 12:19 | [Azure Portal](https://portal.azure.com/#resource/subscriptions/1172b053-825e-438c-8968-4fbca25c3080/resourceGroups/rg-mcp-foundry-project26/overview)*
